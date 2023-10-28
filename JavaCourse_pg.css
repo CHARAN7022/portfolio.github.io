@@ -1,0 +1,83 @@
+.odd:link{
+
+    text-decoration: none
+
+}
+.odd:visited{
+
+    color:black;
+}
+
+#img1{
+    margin-left: 150px;
+    padding-top: 30px;
+ 
+ }
+ 
+ #a3:link{
+     text-decoration: none;
+ }
+ #a3:visited{
+     color: black;
+     
+ }
+ #Course{
+     border: none;
+ }
+ .two:link{
+      text-decoration: none;
+ }
+ .two:visited{
+     color: black;
+ }
+ 
+
+ #hone{
+    margin-left: 150px;
+    color:rgb(2, 2, 82);
+    font-size: 40px;
+ }
+
+ #p1
+ {
+    margin-left: 150px;
+ }
+
+ #sp1{
+    margin-left: 150px;
+ }
+
+ #i1{
+    margin-left: 150px;
+ }
+ #bt1{
+    margin-left: 150px;
+ }
+
+ #i2{
+    margin-left: 130px;
+ }
+ #spn1{
+    margin-left: 120px;
+ }
+ #spn2{
+    margin-left: 120px;
+    
+ }
+ .icon1:link{
+    text-decoration: none;
+
+ }
+ #spn3{
+    margin-left: 400px;
+ }
+ #spn4{
+    margin-left: 330px;
+ }
+ #spn5{
+    margin-left: 320px;
+ }
+
+ #spn6{
+    margin-left: 335px;
+ }

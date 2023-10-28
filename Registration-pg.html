@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="tap_icon.jpg">
+    
+<style>
+    #f1{
+
+    height:600px ;
+     width: 700px; 
+     margin-left:23%; 
+
+    }
+</style>
+
+
+
+
+</head>
+<body    style="border: 3px solid black; height: 571px; width: 747px; margin-left: 400px;">
+
+
+    
+  
+
+    <h1 style="text-align: center;">Registration Page</h1>
+
+    <form id="f1" action="ThankYou.html">
+    
+    <label  style="font-size: 20px;" for="fname">Fast-name:</label>
+    <input  style="font-size: 20px;" type="text" id="fname" name="fname" required placeholder="charan" pattern="[A-Za-z]{3,15}"><br><br>
+ 
+    
+    <label  style="font-size: 20px;" for="lname">last-name:</label>
+    <input  style="font-size: 20px;" type="text" id="lname" name="lname" required placeholder="kumar" pattern="[A-Za-z]{2,5}"><br><br>
+
+    <label  style="font-size: 20px;" for="phn">Ph-n:</label>
+    <input  style="font-size: 20px;" type="tel" id="phn" name="phn" required pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+    <label  style="font-size: 20px;" for="birth">Birth-Date:</label>
+    <input  style="font-size: 20px;" type="date" name="birth" id="birth" required>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <label  style="font-size: 20px;" for="gen">Gender:</label>
+    <select  style="font-size: 20px;" name="" id="Gender" required>
+        <option value=""></option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+     </select><br><br>
+
+    <label  style="font-size: 20px;" for="mail">E-mail:</label>
+    <input  style="font-size: 20px;" type="email" id="mail" name="mail" required placeholder="bob@email.com"  pattern="{20}"><br><br>
+
+  <label style="font-size: 20px;"  for="curs">Course</label>
+  <select style="font-size: 20px;"  id="Course" required>
+    <option value=""></option>
+    <option value="Full Stack Web Development">Full Stack Web Development</option>
+    <option value="Data Structure & Algorithms">Data Structure & Algorithms</option>
+    <option value="Bootcamp">Bootcamp</option>
+     </select><br><br>
+
+    <label  style="font-size: 20px;" for="" >Training-Mode:</label>
+    <input  style="font-size: 20px;" type="radio" id="onli" name="Training-Mode:" required>
+    <label  style="font-size: 20px;" for="onli">Online</label>
+    <input  style="font-size: 20px;" type="radio" id="offli" name="Training-Mode:" required>
+    <label  style="font-size: 20px;" for="offli">Offline</label><br><br>
+   
+
+    <label  style="font-size: 20px;" for="">Branch:</label>
+    <select  style="font-size: 20px;" id="Branch" required>
+        <option  style="font-size: 20px;" value=""></option>
+        <option  style="font-size: 20px;" value="BTM layout">BTM layout</option>
+        <option  style="font-size: 20px;" value="Rajaji Nagar">Rajaji Nagar</option>
+</select><br><br>
+<input  style="font-size: 20px;" type="reset">&nbsp;&nbsp;&nbsp;&nbsp;
+<input  style="font-size: 20px;" type="submit"><br><br>
+
+
+    </a>
+    
+
+</form>
+
+
+
+
+
+    
+</body>
+</html>
